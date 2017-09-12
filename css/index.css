@@ -1,0 +1,202 @@
+/*报名按钮*/
+.signUpBtn{
+	width: 100%;
+	position: relative;
+	/*display: none;*/
+}
+.signUpBtn a{
+	display: block;
+}
+.signUpBtn img{
+	width: 17%;
+	position: fixed;
+	bottom:19%;
+	right:2.5%;
+	z-index: 9;
+}
+
+
+
+.top-banner,
+.activity-intr,
+.activity-rules{
+	width:100%;
+}
+.wrap{
+	background: #f3eeda;
+}
+
+
+/*<!--活动介绍-->*/
+.activity-intr{
+	width: 100%;
+	margin-top:-.32rem;
+	position: relative;
+}
+.activity-intr p{
+	color:#989ea2;
+	position: absolute;
+	bottom:7%;
+	padding: 0 5%;
+	line-height: 1.6;
+	text-indent: 8px;
+	font-size:.14rem;
+	letter-spacing: 1px;
+}
+.activity-intr p b{
+	color:#e87a12;
+}
+
+
+
+/*<!--活动规则-->*/
+.activity-rules{padding:10% 0;}
+.activity-rules > img{
+	width: 50%;
+	margin:0 auto;
+}
+.activity-rules ul{padding-top:8%;}
+.activity-rules li,
+.reward-set li{
+	color:#696969;
+	text-align: center;
+	line-height: 2;
+}
+.activity-rules li h1,
+.reward-set li h1{
+	font-size:.2rem;
+	width: 100%;
+	text-align: center;
+}
+.activity-rules li h1,
+.activity-rules li h1 img,
+.reward-set li h1,
+.reward-set li h1 img{
+	vertical-align: middle;
+	display: inline-block;
+}
+.activity-rules li img,
+.reward-set li img{
+	width:6%;
+	margin-right:3%;
+}
+.activity-rules li b{font-size:.18rem;}
+.activity-rules li p{font-size:.14rem;}
+
+
+
+/*<!--奖励设置-->*/
+.reward-set ul{
+	padding-bottom:10%;
+}
+.reward-set li{
+	font-size:.16rem;
+	font-weight: 700;
+}
+.reward-set span{
+	color:#ffa516;
+}
+.reward-set a > img{
+	width: 50%;
+	margin:0 auto;
+}
+
+
+
+.dian{padding-top:5%;}
+.dian li{
+	text-align: center;
+	line-height: 1.2;;
+	font-size:.3rem;
+	color:#696969;
+}
+
+
+
+/*评选方式*/
+.info{
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-57%;
+	margin-left:-45%;
+	width: 90%;
+	color:#696969;
+	background: #fff;
+	z-index: 10;
+	border-radius: 10px;
+	padding-bottom:3%;
+}
+.info h2{
+	text-align: center;
+	width: 100%;
+	color:#f60;
+	line-height: 3;
+}
+.info span{
+	border-top:1px solid #f60;
+	width: 26%;
+	height: 1px;
+}
+.info h2,
+.info span{
+	display: inline-block;
+	vertical-align: middle;
+}
+.info p{
+	font-size:.14rem;
+	line-height: 1.6;
+	padding:2% 5%;
+}
+.mask,
+.info{
+	display: none;
+}
+.mask{
+	position: fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: (255,255,255,0);
+	z-index: 7;
+}
+
+
+
+
+
+/*轮播图*/
+.carousel{
+	padding-top:10%;
+}
+.carousel h1 img{
+	width: 85%;
+	margin:0 auto 5%;
+}
+.carousel .swiper-container{
+	width: 95%;
+	margin:0 auto;
+}
+
+
+
+
+/*二维码*/
+.code h1{
+	width: 100%;
+}
+.code h1 img{
+	width:90%;
+	margin:0 auto;
+}
+.code > img{
+	width: 100%;
+	margin:0 auto;
+}
+
+
+/*页脚*/
+.footer,.footer img{
+	width: 100%;
+}

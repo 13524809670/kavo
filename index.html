@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<meta name="format-detection" content="telephone=no" />
+    <meta content="email=no" name="format-detection" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>卡瓦</title>
+    <link rel="stylesheet" href="css/app-reset.css" />
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	
+	<!--banner-->
+	<div class="top-banner">
+		<img src="img/header-ban.jpg" alt="" />
+	</div>
+	
+
+	<!--报名按钮-->
+	<div class="signUpBtn"><a href="#"><img src="img/signUp-btn.png" alt="" /></a></div>
+	
+	
+	
+	<div class="wrap">
+		
+		<!--活动介绍-->
+		<div class="activity-intr">
+			<img src="img/bgImg.png" alt="" />
+			<p>"iCARE保养先行者"&nbsp;正式启动打Call!凡<b>成功报名者，均可获得一次卡瓦免费上门保养服务</b>，并亲历体验与卡瓦保养专家团之间的零距离技术交流，Get全方位的日常保养技能。</p>
+		</div>
+		
+		
+		<!--活动规则-->
+		<div class="activity-rules">
+			<img src="img/activity-title.png" alt="" />
+			<ul>
+				<li><h1><img src="img/time-icon.png" alt="" />活动时间</h1></li>
+				<li><b>即日起-2017年10月31日</b></li>
+				<li><p>"我和保养那些事"投稿截止时间 : 2017年12月10日</p></li>
+				<li><p>卡瓦iCARE保养全国12强评选  : 2017年12月20日</p></li>
+				<li><p>卡瓦保养大使总决选 : 2018年2月1日</p></li>
+			</ul>
+		</div>
+		
+		
+		<!--奖励设置-->
+		<div class="reward-set">
+			<ul>
+				<li><h1><img src="img/reward-icon.png" alt="" />奖励设置</h1></li>
+				<li>一等奖1名，荣获<span>"卡瓦保养大使"</span>称号<br>被授予<span>"全院设备免费保养服务"</span></li>
+				<li>二等奖2名，被授予<span>卡瓦全套高级培训课程</span></li>
+				<li>三等奖3名，被授予<span>"卡瓦iCARE专业保养指南"</span></li>
+			</ul>
+			<a href="javascript:void(0)" id="openBtn"><img src="img/more-btn_03.png" alt=""></a>
+		</div>
+	
+		<!--三点-->
+		<ul class="dian">
+			<li>&bull;</li>
+			<li>&bull;</li>
+			<li>&bull;</li>
+		</ul>
+	
+	
+		<!--详情-->
+		<div class="info">
+			<h2><span></span>&nbsp;评选方式&nbsp;<span></span></h2>
+			<p>1.凡报名成功者，都将获得一次卡瓦免费上门保养，即与由卡瓦专业工程师组成的卡瓦保养专家团开展面对面的深入技术交流，感受专业卡瓦服务，Get全面的日常保养技能。</p>
+			<p>2. 参赛选手上传“我和保养那些事儿”，分享个人设备保养故事心得，角逐“卡瓦保养先行者”全国12强，最终结果将由卡瓦保养专家团投票评选。凡参赛选手上传成功后，均可获得卡瓦布45抽装产品一份。</p>
+			<p>3. 卡瓦保养专家团将亲自前往“全国12强”参赛选手的设备现场，现场指导考察，亲授保养小技能，由此评选出全国3强获得惊喜礼品（详见下文”奖品设置“）。</p>
+		</div>
+		<div class="mask"></div>
+		
+
+		<div class="carousel">
+			<h1><img src="img/title-pic.png" alt="" /></h1>
+			
+			<!--轮播图-->
+			<div class="swiper-container">
+		        <ul class="swiper-wrapper">
+		            <li class="swiper-slide"><a href="#"><img src="img/carousel_03.jpg" alt="" /></a></li>
+		            <li class="swiper-slide"><a href="#"><img src="img/carousel_03.jpg" alt="" /></a></li>
+		            <li class="swiper-slide"><a href="#"><img src="img/carousel_03.jpg" alt="" /></a></li>
+		        </ul>
+		        <div class="swiper-pagination"></div>
+		    </div>
+		    <img src="img/yun.jpg" alt="" />
+		</div>
+	</div>
+	
+	
+	
+	<!--二维码-->
+	<div class="code">
+		<h1><img src="img/about.jpg" alt="" /></h1>
+		<img src="img/code.jpg" alt="" />
+		<img src="img/byun.jpg" alt="" />
+	</div>
+		
+		
+		
+	<!--页脚-->
+	<div class="footer">
+		<img src="img/footer.jpg" alt="" />
+	</div>
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/swiper-3.4.2.jquery.min.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script src="js/index.js"></script>
+<script>
+	// 当前时间戳
+    var newDate = new Date();
+    Date.prototype.format = function(format) {  
+        var date = {  
+                "M+": this.getMonth() + 1,  
+                "d+": this.getDate(),  
+                "h+": this.getHours(),  
+                "m+": this.getMinutes(),  
+                "s+": this.getSeconds(),  
+                "q+": Math.floor((this.getMonth() + 3) / 3),  
+                "S+": this.getMilliseconds()  
+        };  
+        if (/(y+)/i.test(format)) {  
+            format = format.replace(RegExp.$1, (this.getFullYear() + '').substr(4 - RegExp.$1.length));  
+        }  
+        for (var k in date) {  
+            if (new RegExp("(" + k + ")").test(format)) {  
+                format = format.replace(RegExp.$1, RegExp.$1.length == 1  ? date[k] : ("00" + date[k]).substr(("" + date[k]).length));  
+            }  
+        }  
+        return format;  
+    }  
+    var curtTime = newDate.format('yyyy-MM-dd h:m:s');
+
+
+	var dataForWeixin = {
+        MsgImg: "img/title.jpg",
+        links: '',
+        desc: "",
+        title: "威图邀请函" 
+    }
+
+	wx.config({
+	    debug: false,
+	    appId: '',
+	    timestamp: curtTime,
+	    nonceStr: '',
+	    signature: '',
+	    jsApiList: ['onMenuShareAppMessage'] 
+	});
+
+	wx.ready(function(){
+		wx.onMenuShareAppMessage({
+	        title: dataForWeixin.title,
+	        desc: dataForWeixin.desc,
+	        link: dataForWeixin.links,
+	        imgUrl: dataForWeixin.MsgImg,
+	        type: '',
+	        dataUrl: '',
+	        success: function () { 
+	            // 用户确认分享后执行的回调函数
+	            alert('分享成功！');
+	            
+	        },
+	        cancel: function () { 
+	            // 用户取消分享后执行的回调函数
+	            alert('您已取消分享！');
+	        }
+	    });    
+	})
+</script>
+</html>
